@@ -8,6 +8,7 @@ module.exports = {
     './src/**/*.{ts,tsx}',
 	],
   theme: {
+    
     container: {
       center: true,
       padding: "2rem",
@@ -37,6 +38,9 @@ module.exports = {
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
+        },
+        fontFamily: {
+          sans: ['Nunito_Sans-Regular', 'Helvetica', 'Arial', 'sans-serif'],
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
