@@ -1,5 +1,7 @@
 import Client from "@/components/clients/Client";
+import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
+import NewsLetter from "@/components/newsletter/NewsLetter";
 import BlueContainerService from "@/components/services/BlueContainerService";
 import BulletWiseServices from "@/components/services/BulletWiseServices";
 import SelfServices from "@/components/services/SelfServices";
@@ -8,6 +10,7 @@ import ToggleServices from "@/components/services/ToggleServices";
 import WithoutVsWith from "@/components/services/WithoutVsWith";
 import XeroCodeeWay from "@/components/services/XeroCodeeWay";
 import Navbar from "@/components/shared/Navbar";
+import Success from "@/components/success/Success";
 
 export default function Home() {
   return (
@@ -21,6 +24,8 @@ export default function Home() {
       <SelfServices />
       <BlueContainerService />
       <BulletWiseServices />
+      <Success />
+      <NewsLetter />
     </main>
   )
 }

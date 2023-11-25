@@ -20,7 +20,7 @@ const BlueContainerService = (): JSX.Element => {
                         <p className="font-semibold text-white  text-[44px]  ">
                             Real-time Risk Monitoring
                         </p>
-                        <p className="text-[20px] text-white  leading-[36px] font-extralight [font-family:'Nunito_Sans-Regular',Helvetica]  ">
+                        <p className="text-[20px] text-white  leading-[36px] font-extralight font-nunito-sans  ">
                             Real-time risk monitoring across your infrastructure and application ecosystem will help you maintain
                             ongoing compliance with more than 05+ different regulatory standards.
                         </p>
@@ -32,7 +32,7 @@ const BlueContainerService = (): JSX.Element => {
                         <p className="font-semibold text-white  text-[44px]  ">
                             Collaborative <br /> workflows
                         </p>
-                        <p className="text-[20px] text-white  leading-[36px] font-extralight [font-family:'Nunito_Sans-Regular',Helvetica]  ">
+                        <p className="text-[20px] text-white  leading-[36px] font-extralight font-nunito-sans  ">
                             Share artefacts easily and collaborate with team members, auditors, and pen testers via automated procedures. To manage daily compliance with automatic notifications and reminders, create, assign, and track tasks.
                         </p>
                     </div>

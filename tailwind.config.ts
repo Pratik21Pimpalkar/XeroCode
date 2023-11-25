@@ -13,9 +13,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      fontFamily: {
-        sans: ['Nunito_Sans-Regular', 'Helvetica', 'Arial', 'sans-serif'],
-      },
+    
+        fontFamily: {
+          'nunito-sans': ['Nunito_Sans-Regular', 'Helvetica', 'sans-serif'],
+          'poppins-semibold': ['Poppins-SemiBold', 'Helvetica', 'sans-serif'],
+        },
+      
     },
   },
   plugins: [],
