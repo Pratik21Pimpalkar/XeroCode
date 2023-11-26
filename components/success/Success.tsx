@@ -38,8 +38,6 @@ const Success = () => {
                         delay: 4000,
                         disableOnInteraction: false
                     }}
-
-                    style={{ "--swiper-pagination-bullet-size": "14px" }}
                     navigation={true}
                     modules={[Navigation, Autoplay]} >
                     <SwiperSlide > <SuccessCardMobile /></SwiperSlide>
