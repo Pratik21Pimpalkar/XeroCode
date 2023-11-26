@@ -6,12 +6,12 @@ const BlueContainerService = (): JSX.Element => {
             <p className=" font-semibold text-white md:text-[44px] text-2xl text-center leading-normal">
                 Modernize Apps, Infrastructure With Cloud Native Tech For Resilience, Scalability.
             </p>
-            <div className="md:mt-36 mt-5">
+            <div className="md:mt-36 mt-20">
                 <div className="grid md:grid-cols-3 grid-cols-1 place-items-end">
-                    <div className="w-full h-[400px] md:col-span-2 relative">
+                    <div className="w-full md:h-[400px] h-[150px] md:col-span-2 relative">
                         <Image
                             fill
-                            className=""
+                            className="object-cover"
                             alt="Cards screen"
                             src="/assets/landing/bluecard-1.svg"
                         />
