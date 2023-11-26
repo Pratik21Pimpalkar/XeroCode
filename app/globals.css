@@ -74,3 +74,9 @@ body {
   background: #6b6b6b;
   border-radius: 10px;
 }
+
+.swiper-pagination-bullet {
+  background-color: #0C5BC6 !important;
+  width: 14px !important;
+  height: 14px !important;
+}

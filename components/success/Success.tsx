@@ -21,11 +21,9 @@ const Success = () => {
                         delay: 4000,
                         disableOnInteraction: false
                     }}
-
                     pagination={{
                         dynamicBullets: true,
                     }}
-                    style={{ "--swiper-pagination-bullet-size": "14px" }}
                     navigation={true}
                     modules={[Pagination, Navigation, Autoplay]} >
                     <SwiperSlide > <SuccessCard /></SwiperSlide>
