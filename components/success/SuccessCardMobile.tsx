@@ -12,8 +12,8 @@ const SuccessCardMobile = () => {
                 <p className="text-[#242331] md:text-[1.125rem] text-md font-nunito-sans text-center">
                     <span className="w-[25px] h-[25px] relative inline-block mr-2 ">
                         <Image fill src={"/assets/landing/quotes.svg"} alt="avatar" className="" />
-                    </span>  There are many variations of passages of Lorem Ipsum available
-                    but the majority have sufferg alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.
+                    </span>    There are many variations of passages of Lorem Ipsum available
+                            but the majority have sufferg alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable. If you are going to use a passage.
                 </p>
             </div>
 

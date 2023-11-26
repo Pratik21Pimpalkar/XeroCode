@@ -13,7 +13,7 @@ const SuccessCard = () => {
                     <div className="my-2">
                         <p className="text-[#242331] text-[1.125rem] [font-family:'Nunito_Sans-Regular',Helvetica]">
                             There are many variations of passages of Lorem Ipsum available
-                            but the majority have sufferg alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.
+                            but the majority have sufferg alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable. If you are going to use a passage.
                         </p>
                     </div>
                     <div className="flex flex-col  md:items-end">
