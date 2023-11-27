@@ -3,11 +3,11 @@ import Image from "next/image";
 const BlueContainerService = (): JSX.Element => {
     return (
         <div className="w-full bg-[#0c5bc6] md:rounded-[30px] rounded-[25px] md:my-44 my-10 md:p-[8.8rem] p-[2rem]">
-            <p className=" font-semibold text-white md:text-[44px] text-2xl text-center leading-normal">
+            <p className=" font-semibold text-white md:text-[44px] text-xl text-center leading-normal">
                 Modernize Apps, Infrastructure With Cloud Native Tech For Resilience, Scalability.
             </p>
             <div className="md:mt-36 mt-20">
-                <div className="grid md:grid-cols-3 grid-cols-1 place-items-end">
+                <div className="grid md:grid-cols-3 grid-cols-1 place-items-end md:my-24 my-10 gap-y-10">
                     <div className="w-full md:h-[400px] h-[150px] md:col-span-2 relative">
                         <Image
                             fill
@@ -27,10 +27,10 @@ const BlueContainerService = (): JSX.Element => {
                     </div>
 
                 </div>
-                <div className="grid md:grid-cols-3 grid-cols-1 place-items-end md:my-24 my-5">
+                <div className="grid md:grid-cols-3 grid-cols-1 place-items-end md:my-24 my-10 gap-y-10">
                     <div className="flex flex-col  items-start justify-end gap-[30px]   ">
-                        <p className="font-semibold text-white  md:text-[44px] text-2xl leading-normal  ">
-                            Collaborative <br /> workflows
+                        <p className="font-semibold text-white  md:text-[44px] text-xl leading-normal  ">
+                            Collaborative <br className="hidden md:block"/> workflows
                         </p>
                         <p className="md:text-[20px] text-white  md:leading-[36px] font-extralight font-nunito-sans  ">
                             Share artefacts easily and collaborate with team members, auditors, and pen testers via automated procedures. To manage daily compliance with automatic notifications and reminders, create, assign, and track tasks.

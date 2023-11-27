@@ -28,7 +28,7 @@ const SelfServices = () => {
     return (
         <div className="w-full md:mt-44 mt-10">
             <div className="w-full ">
-                <p className=" [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-transparent text-[44px] text-xl tracking-[0] md:leading-[55px]  text-center ">
+                <p className=" [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-transparent md:text-[44px] text-xl tracking-[0] md:leading-[55px]  text-center ">
                     <span className="text-[#242331]">  Self serve infrastructure platform for <span className="text-[#0c5bc6] text-center">scaling teams</span></span>
                 </p>
             </div>

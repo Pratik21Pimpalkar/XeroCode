@@ -35,18 +35,18 @@ const XeroCodeeWay = ({ id, title, desc, data }: Props) => {
         <section>
             <div>
                 <div className="flex flex-col justify-center items-center  md:mb-16 my-10">
-                    <p className=" font-poppins-semibold font-semibold text-transparent text-[36px] text-xl tracking-[0] md:leading-[55px]  text-center  ">
+                    <p className=" font-poppins-semibold font-semibold text-transparent md:text-[36px] text-xl tracking-[0] md:leading-[55px]  text-center  ">
                         <span className="text-[#242331] flex gap-2 items-center"> {id} </span>
                     </p>
                     <img src="/assets/landing/line.svg" alt="line" className="w-13 md:w-fit" />
                 </div>
 
                 <div className="flex flex-col justify-center items-center  md:mb-20 mb-5">
-                    <p className=" font-poppins-semibold font-semibold text-transparent text-[24px] 
+                    <p className=" font-poppins-semibold font-semibold text-transparent md:text-[24px] 
                     text-lg tracking-[0] md:leading-[55px]  text-center  ">
                         <span className="text-[#242331] flex gap-2 items-center"> {title}</span>
                     </p>
-                    <p className="font-nunito-sans font-normal text-[#494369] text-[16px] text-center tracking-[0] leading-[36.0px] ">
+                    <p className="font-nunito-sans font-normal text-[#494369] md:text-[16px] text-sm text-center tracking-[0] leading-[36.0px] ">
                         {desc}
                     </p>
                 </div>
